@@ -16,7 +16,7 @@ class LaravelApplication extends AbstractApplication
 {
     const TYPE = "LARAVEL";
 
-    public function getType()
+    public static function getType()
     {
         return self::TYPE;
     }
