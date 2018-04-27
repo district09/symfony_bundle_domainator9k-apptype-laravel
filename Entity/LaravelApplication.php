@@ -12,6 +12,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @package DigipolisGent\Domainator9k\AppTypes\LaravelBundle\Entity
  *
  * @ORM\Entity()
+ * @ORM\Table(name="laravel_application")
  */
 class LaravelApplication extends AbstractApplication
 {
