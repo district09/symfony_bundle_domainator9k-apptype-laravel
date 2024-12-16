@@ -10,10 +10,9 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Class LaravelApplication
  * @package DigipolisGent\Domainator9k\AppTypes\LaravelBundle\Entity
- *
- * @ORM\Entity()
- * @ORM\Table(name="laravel_application")
  */
+#[ORM\Table(name: 'laravel_application')]
+#[ORM\Entity]
 class LaravelApplication extends AbstractApplication
 {
     const TYPE = "LARAVEL";
